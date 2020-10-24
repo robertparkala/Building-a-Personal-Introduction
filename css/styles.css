@@ -29,15 +29,10 @@ h3 {
 }
 
 .middle-container {
-  background-color: #0f4c75;
-  height: 200px;
-  width: 200px;
+  padding-top: 20px;
 }
 
 .bottom-container {
-  background-color: #3282b8;
-  height: 200px;
-  width: 200px;
 }
 
 .top-cloud {
