@@ -67,10 +67,10 @@ li a {
   right: 775px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .woodland {
     position: relative;
-    right: 390px;
+    right: 625px;
   }
 }
 
@@ -87,10 +87,10 @@ li a {
   transform: rotate(-175deg);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .top-satellite {
     position: absolute;
-    right: 10px;
+    right: 100px;
     top: 50px;
     transform: rotate(-175deg);
   }
@@ -102,12 +102,12 @@ li a {
   left: 180px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .bottom-moon {
-    width: 15%;
+    width: 8%;
     bottom: 280px;
     position: absolute;
-    left: 10px;
+    left: 80px;
   }
 }
 
