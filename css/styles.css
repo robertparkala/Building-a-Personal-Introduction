@@ -67,6 +67,13 @@ li a {
   right: 775px;
 }
 
+@media (max-width: 768px) {
+  .woodland {
+    position: relative;
+    right: 390px;
+  }
+}
+
 .top-container {
   background-color: #bbe1fa;
   position: relative;
@@ -80,10 +87,28 @@ li a {
   transform: rotate(-175deg);
 }
 
+@media (max-width: 768px) {
+  .top-satellite {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    transform: rotate(-175deg);
+  }
+}
+
 .bottom-moon {
   bottom: 280px;
   position: absolute;
   left: 180px;
+}
+
+@media (max-width: 768px) {
+  .bottom-moon {
+    width: 15%;
+    bottom: 280px;
+    position: absolute;
+    left: 10px;
+  }
 }
 
 .middle-container {
