@@ -1,14 +1,19 @@
+html {
+  scroll-behavior: smooth
+}
+
 body {
   font-family: 'Merriweather', serif;
   text-align: center;
   margin: 0;
+
 }
 
 h1 {
   font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
   color: #3282b8;
-  line-height: 2; 
+  line-height: 2;
   margin: 50px auto 0 auto;
 
 }
@@ -25,6 +30,33 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar {
+  background-color: #bbe1fa;
+  font-size: 1.1rem;
+  font-weight: normal;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  padding: 8px;
+  color: #0f4c75;
+  text-decoration: none;
+  position: relative;
+  left: 50px;
+}
+
+.woodland {
+  position: relative;
+  right: 775px;
+}
 .top-container {
   background-color: #bbe1fa;
   position: relative;
