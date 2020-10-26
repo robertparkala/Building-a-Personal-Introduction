@@ -207,16 +207,17 @@ hr {
 }
 
 .footer-link {
-  color: #7CB74B;
+  color: #7DB84A;
   margin: 30px;
+  font-family: sans-serif;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
 }
 a:hover {
   color: #EAF6F6;
 }
 
 .bottom-paragraph {
-  color: #EAF6F6;
+  color: #FEFEFE;
   margin-top: 30px;
 }
