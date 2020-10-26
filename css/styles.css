@@ -67,7 +67,7 @@ li a {
   right: 775px;
 }
 
-@media (max-width: 768px) {
+@media screen (max-width: 768px) {
   .woodland {
     position: relative;
     right: 390px;
@@ -87,7 +87,7 @@ li a {
   transform: rotate(-175deg);
 }
 
-@media (max-width: 768px) {
+@media screen (max-width: 768px) {
   .top-satellite {
     position: absolute;
     right: 10px;
